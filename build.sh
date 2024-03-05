@@ -1,6 +1,6 @@
-#!/bin/sh
-curl -sSL https://dot.net/v1/dotnet-install.sh > dotnet-install.sh
-chmod +x dotnet-install.sh
-./dotnet-install.sh -c 7.0 -InstallDir ./dotnet
-./dotnet/dotnet --version
-./dotnet/dotnet publish -c Release -o output
+git init
+git remote add origin https://github.com/<your-gh-username>/<repository-name>
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git push -u origin main
